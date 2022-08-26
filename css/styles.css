@@ -1,0 +1,187 @@
+:root {
+  /* Fonts */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-title-text-color: #ffffff;
+  --secondary-text-color: #2196f3;
+  --logo-text-color: #000000;
+  --address-text-color: #ffffff 0.6;
+  /* Background */
+  --footer-background-color: #2f303a;
+  --team-section-background-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* header */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.logo-color {
+  color: var(--secondary-text-color);
+}
+.nav-list,
+.header-contacts,
+.features-list,
+.what-are-we-list,
+.our-team-list,
+.address-list,
+.filter-list,
+.portfolio-content-list {
+  list-style: none;
+}
+.nav-list-item,
+.header-contacts-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.header-contacts-item-link {
+  color: var(--primary-text-color);
+}
+.nav-list-item:hover,
+.nav-list-item:focus,
+.nav-list-item:active,
+.header-contacts-item-link:hover,
+.header-contacts-item-link:focus,
+.header-contacts-item-link:active {
+  color: var(--secondary-text-color);
+}
+/* main */
+/* hero */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-title-text-color);
+  background-color: burlywood;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-text-color);
+  background-color: var(--secondary-text-color);
+  cursor: pointer;
+}
+/* features */
+.hidden-title {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.features-list-item-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+/* What are we, our team */
+.what-are-we-title,
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.our-team {
+  background-color: var(--team-section-background-color);
+}
+.our-team-list-item-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.our-team-list-item-text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+/* footer */
+address {
+  font-style: inherit;
+}
+.contacts {
+  background-color: var(--footer-background-color);
+}
+.map-link {
+  text-decoration: none;
+  color: var(--secondary-title-text-color);
+}
+.footer-logo {
+  color: var(--secondary-title-text-color);
+}
+.logo-footer-color {
+  color: var(--secondary-text-color);
+}
+.mail-link,
+.tel-link {
+  text-decoration: none;
+  color: var(--address-text-color);
+}
+/* portfolio */
+.filter-list-button {
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--team-section-background-color);
+  cursor: pointer;
+}
+.filter-list-button:hover,
+.filter-list-button:focus,
+.filter-list-button:active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-text-color);
+  background-color: var(--secondary-text-color);
+}
+.portfolio-content-list-item-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-content-list-item-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
