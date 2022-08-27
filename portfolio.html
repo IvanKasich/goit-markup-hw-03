@@ -27,29 +27,41 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
+      <div class="container header">
+        <nav class="nav">
           <a class="logo" href="./index.html"
             ><span class="logo-color">Web</span>Studio</a
           >
           <ul class="nav-list">
-            <li><a class="nav-list-item" href="./index.html">Студія</a></li>
             <li>
-              <a class="nav-list-item" href="./portfolio.html">Портфоліо</a>
+              <a class="nav-list-item display-block" href="./index.html"
+                >Студія</a
+              >
             </li>
-            <li><a class="nav-list-item" href="#contacts-link">Контакти</a></li>
+            <li>
+              <a class="nav-list-item display-block" href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li>
+              <a class="nav-list-item display-block" href="#contacts-link"
+                >Контакти</a
+              >
+            </li>
           </ul>
         </nav>
         <ul class="header-contacts">
           <li class="header-contacts-item">
             <a
-              class="header-contacts-item-link"
+              class="header-contacts-item-link display-block"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="header-contacts-item">
-            <a class="header-contacts-item-link" href="tel:+380961111111"
+            <a
+              class="header-contacts-item-link display-block"
+              href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
@@ -57,27 +69,33 @@
       </div>
     </header>
     <main>
-      <section class="section">
+      <section class="section-portfolio">
         <div class="container">
           <h1 class="hidden-title">Проєкти портфоліо</h1>
           <ul class="filter-list">
             <li class="filter-list-item">
-              <button class="filter-list-button" type="button">Усі</button>
+              <button class="filter-list-button all-btn" type="button">
+                Усі
+              </button>
             </li>
             <li class="filter-list-item">
-              <button class="filter-list-button" type="button">
+              <button class="filter-list-button secondary-btn" type="button">
                 Веб-сайти
               </button>
             </li>
             <li class="filter-list-item">
-              <button class="filter-list-button" type="button">Додатки</button>
+              <button class="filter-list-button secondary-btn" type="button">
+                Додатки
+              </button>
             </li>
             <li class="filter-list-item">
-              <button class="filter-list-button" type="button">Дизайн</button>
+              <button class="filter-list-button secondary-btn" type="button">
+                Дизайн
+              </button>
             </li>
 
             <li class="filter-list-item-button">
-              <button class="filter-list-button" type="button">
+              <button class="filter-list-button secondary-btn" type="button">
                 Маркетинг
               </button>
             </li>
@@ -85,7 +103,7 @@
           <ul class="portfolio-content-list">
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/technocrack.jpg"
                 alt="зразок веб-сайту"
                 width="370"
@@ -96,7 +114,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/poster.jpg"
                 alt="постер нба"
                 width="370"
@@ -109,7 +127,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/seafood.jpg"
                 alt="логотип ресторану"
                 width="370"
@@ -122,7 +140,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/prime.jpg"
                 alt="слухавки"
                 width="370"
@@ -133,7 +151,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/boxes.jpg"
                 alt="коробки"
                 width="370"
@@ -144,7 +162,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/noborders.jpg"
                 alt="зразок веб-сайту"
                 width="370"
@@ -157,7 +175,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/le.jpg"
                 alt="зразок оформлення сторінок"
                 width="370"
@@ -170,7 +188,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/lab.jpg"
                 alt="проєкт лаб"
                 width="370"
@@ -181,7 +199,7 @@
             </li>
             <li class="portfolio-content-list-item">
               <img
-                class="image-display-block"
+                class="image-portfolio display-block"
                 src="./images/business.jpg"
                 alt="зразок додатку"
                 width="370"
