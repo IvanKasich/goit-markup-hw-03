@@ -47,7 +47,11 @@ ul {
 }
 
 .section {
-  padding: 94px 15px;
+  padding: 94px 15px 0;
+}
+.what-are-we-section,
+.our-team {
+  padding-bottom: 94px;
 }
 .display-block {
   display: block;
