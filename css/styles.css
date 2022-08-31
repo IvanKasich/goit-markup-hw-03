@@ -28,6 +28,11 @@ ul {
   font: inherit;
   vertical-align: baseline;
 }
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
 .nav-list,
 .header-contacts,
 .features-list,
@@ -47,11 +52,10 @@ ul {
 }
 
 .section {
-  padding: 94px 15px 0;
+  padding: 94px 0;
 }
-.what-are-we-section,
-.our-team {
-  padding-bottom: 94px;
+.what-are-we-section {
+  padding-top: 0;
 }
 .display-block {
   display: block;
@@ -75,10 +79,7 @@ header {
 }
 
 .nav-list {
-  width: 281px;
   display: flex;
-  margin-right: 344px;
-  justify-content: space-between;
 }
 .header-contacts {
   display: flex;
@@ -89,8 +90,6 @@ header {
 }
 
 .logo {
-  margin-right: 93px;
-
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -100,6 +99,9 @@ header {
   color: var(--logo-text-color);
   text-decoration: none;
   text-transform: capitalize;
+}
+.logo-header {
+  margin-right: 93px;
 }
 .logo-color {
   color: var(--secondary-text-color);
@@ -118,6 +120,9 @@ header {
   color: var(--title-text-color);
   text-decoration: none;
 }
+.nav-list-item:not(last-child) {
+  margin-right: 50px;
+}
 .header-contacts-item-link {
   color: var(--primary-text-color);
 }
@@ -132,6 +137,12 @@ header {
 /* main */
 /* hero */
 .hero {
+  background-color: var(--footer-background-color);
+  padding: 200px 0;
+}
+.hero-title {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -140,9 +151,8 @@ header {
   text-transform: uppercase;
 
   color: var(--secondary-title-text-color);
-  background-color: burlywood;
 }
-.hero-container {
+.hero-content {
   width: 696px;
   text-align: center;
   margin: auto;
@@ -170,11 +180,16 @@ header {
 /* features */
 .hidden-title {
   position: absolute;
-  left: -10000px;
-  top: auto;
+  white-space: nowrap;
   width: 1px;
   height: 1px;
   overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .features-list {
   display: flex;
@@ -186,6 +201,8 @@ header {
   margin-right: 30px;
 }
 .features-list-item-heading {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -229,7 +246,8 @@ header {
     0px 2px 1px #00000033;
   border-radius: 0px 0px 4px 4px;
 }
-.image-our-team {
+.our-team-content {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .our-team-list-item-heading {
@@ -243,14 +261,16 @@ header {
   color: var(--title-text-color);
 }
 .our-team-list-item-text {
-  margin-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
 }
 /* footer */
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 address {
   font-style: inherit;
 }
@@ -260,7 +280,6 @@ address {
 
 .footer-logo {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
 
   color: var(--secondary-title-text-color);
@@ -268,9 +287,7 @@ address {
 .logo-footer-color {
   color: var(--secondary-text-color);
 }
-.address-list {
-  padding-bottom: 60px;
-}
+
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -335,13 +352,15 @@ address {
 }
 .portfolio-content-list-item {
   margin: 15px;
-
-  outline: 1px solid var(--portfolio-content-border-color);
+}
+.portfolio-content-list-text {
+  padding: 20px 24px;
+  border-right: 1px solid var(--portfolio-content-border-color);
+  border-bottom: 1px solid var(--portfolio-content-border-color);
+  border-left: 1px solid var(--portfolio-content-border-color);
 }
 .portfolio-content-list-item-heading {
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -350,14 +369,7 @@ address {
   color: var(--title-text-color);
 }
 .portfolio-content-list-item-text {
-  margin-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-}
-.image-portfolio {
-  margin-bottom: 20px;
 }
