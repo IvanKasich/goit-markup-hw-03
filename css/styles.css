@@ -77,15 +77,6 @@ body {
 header {
   border-bottom: 1px solid var(--header-border-bottom-color);
 }
-
-.header-contacts {
-  display: flex;
-  margin-left: auto;
-}
-.header-contacts-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -105,6 +96,13 @@ header {
 }
 .nav-list {
   display: flex;
+}
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-list-item-link,
