@@ -126,9 +126,9 @@ header {
 .header-contacts-item-link {
   color: var(--primary-text-color);
 }
-.nav-list-item:hover,
-.nav-list-item:focus,
-.nav-list-item:active,
+.nav-list-item-link:hover,
+.nav-list-item-link:focus,
+.nav-list-item-link:active,
 .header-contacts-item-link:hover,
 .header-contacts-item-link:focus,
 .header-contacts-item-link:active {
