@@ -78,9 +78,6 @@ header {
   border-bottom: 1px solid var(--header-border-bottom-color);
 }
 
-.nav-list {
-  display: flex;
-}
 .header-contacts {
   display: flex;
   margin-left: auto;
@@ -106,8 +103,11 @@ header {
 .logo-color {
   color: var(--secondary-text-color);
 }
+.nav-list {
+  display: flex;
+}
 
-.nav-list-item,
+.nav-list-item-link,
 .header-contacts-item-link {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -120,7 +120,7 @@ header {
   color: var(--title-text-color);
   text-decoration: none;
 }
-.nav-list-item:not(last-child) {
+.nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .header-contacts-item-link {
