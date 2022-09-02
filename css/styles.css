@@ -137,9 +137,13 @@ header {
 .hero {
   background-color: var(--footer-background-color);
   padding: 200px 0;
+  text-align: center;
 }
 .hero-title {
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -150,11 +154,7 @@ header {
 
   color: var(--secondary-title-text-color);
 }
-.hero-content {
-  width: 696px;
-  text-align: center;
-  margin: auto;
-}
+
 .hero-btn {
   padding: 10px 32px;
 
@@ -245,8 +245,8 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 .our-team-content {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .our-team-list-item-heading {
   margin-bottom: 10px;
