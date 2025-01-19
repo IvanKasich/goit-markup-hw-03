@@ -51,8 +51,6 @@ ol {
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -64,12 +62,13 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.header .logo {
   margin-right: 78px;
 }
+
 .nav {
   display: flex;
+  align-items: center;
+  padding: 24px 0;
 }
 .nav span {
   color: #2e2f42;
@@ -97,6 +96,7 @@ ol {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .address-item {
 }
