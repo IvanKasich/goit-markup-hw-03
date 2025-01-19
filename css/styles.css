@@ -63,6 +63,7 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 78px;
+  padding: 24px 0;
 }
 
 .nav {
@@ -116,15 +117,6 @@ ol {
   padding: 188px 0;
 }
 
-/* .hero-container {
-  width: 1440;
-  height: 600px;
-  text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
-
-  margin: 0 auto;
-} */
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -280,7 +272,14 @@ ol {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer .logo {
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
 }
