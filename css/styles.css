@@ -113,9 +113,10 @@ ol {
 /* hero */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
-.hero-container {
+/* .hero-container {
   width: 1440;
   height: 600px;
   text-align: center;
@@ -123,7 +124,7 @@ ol {
   padding-bottom: 188px;
 
   margin: 0 auto;
-}
+} */
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -134,10 +135,10 @@ ol {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-  width: 600px;
+  max-width: 496px;
 }
 .hero-btn {
-  display: inline-block;
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -147,6 +148,11 @@ ol {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -205,7 +211,10 @@ ol {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-image {
-  margin-bottom: 32px;
+}
+.team-descr {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -221,7 +230,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 32px;
 }
 /* portfolio */
 .portfolio {
@@ -270,10 +278,10 @@ ol {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  padding: 120px 0 100px;
+  padding: 100px 0;
 }
 .footer .logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo {
